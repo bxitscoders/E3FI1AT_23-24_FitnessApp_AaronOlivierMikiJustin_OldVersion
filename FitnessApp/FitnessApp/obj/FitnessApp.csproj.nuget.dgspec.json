@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\BfK-S\\#KlassenGit\\RepoE3FI1AT\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj": {}
+    "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj": {}
   },
   "projects": {
-    "H:\\BfK-S\\#KlassenGit\\RepoE3FI1AT\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj": {
+    "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\BfK-S\\#KlassenGit\\RepoE3FI1AT\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
+        "projectUniqueName": "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
         "projectName": "FitnessApp",
-        "projectPath": "H:\\BfK-S\\#KlassenGit\\RepoE3FI1AT\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
-        "packagesPath": "C:\\Users\\mihailo.simovic\\.nuget\\packages\\",
-        "outputPath": "H:\\BfK-S\\#KlassenGit\\RepoE3FI1AT\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\obj\\",
+        "projectPath": "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
+        "packagesPath": "C:\\Users\\addec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mihailo.simovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "P:\\addec\\AppData\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,10 +45,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.31, 3.1.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -57,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

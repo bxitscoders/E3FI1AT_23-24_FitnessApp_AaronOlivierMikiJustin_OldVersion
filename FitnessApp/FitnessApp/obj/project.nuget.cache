@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lkEFBsoB2X02WpD+L2OBFw3ij/rUkt9eEfAYavlsKFKdOSI87QFqYdT+65u/EJqRCMTP7aWGixqY9iBXlECLuQ==",
+  "dgSpecHash": "7rWK7DAjKM/c9UjpKotev8QmsBdLfPOp0Ni2MeAJOHEkG7Y+vL8dQR16CJSysn8l/OayjZREX/eZTMlDg0PCkQ==",
   "success": true,
-  "projectFilePath": "H:\\BfK-S\\#KlassenGit\\RepoE3FI1AT\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\addec\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\addec\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\addec\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\addec\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
   "logs": []
 }
