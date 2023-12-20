@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FitnessApp",
+    "\\FitnessApp\\FitnessApp",
+    "\\FitnessApp\\FitnessApp\\Models",
+    "\\FitnessApp\\FitnessApp\\ViewModels",
+    "\\FitnessApp\\FitnessApp\\Views"
+  ],
+  "SelectedNode": "\\FitnessApp\\FitnessApp\\Views\\MainView.xaml",
+  "PreviewInSolutionExplorer": false
+}
