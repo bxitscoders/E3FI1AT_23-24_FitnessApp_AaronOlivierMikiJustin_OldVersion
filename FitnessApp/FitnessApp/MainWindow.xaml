@@ -4,9 +4,68 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FitnessApp"
+        xmlns:viewModel="clr-namespace:FitnessApp.ViewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="FitnessTrainer"
+        ResizeMode="CanResizeWithGrip"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStyle="None" d:DesignHeight="666.423" d:DesignWidth="1253.789">
 
-    </Grid>
+    <Window.DataContext>
+        <viewModel:MainViewModel />
+    </Window.DataContext>
+
+
+    <Border CornerRadius = "30" Background="#272537">
+        <Grid x:Name="LayoutRoot" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="4*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="4*" />
+            </Grid.RowDefinitions>
+
+            <!--Hello, <Name>! Textblock -->
+            <TextBlock Text="Hello,&#x0a;'Name'"
+                       Grid.Row="0" 
+                       Grid.Column="0" 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Center"
+                       Foreground="White"
+                       FontSize="24" 
+                       FontWeight="Bold">
+            </TextBlock>
+
+            <StackPanel Grid.Column="0" Grid.Row="1">
+                <RadioButton Content="Start Training"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}" 
+                             Command="{Binding TrainingViewCommand}" />
+                <RadioButton Content="Progress"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding ProgressViewCommand}" />
+                <RadioButton Content="Exercise Overview"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}" 
+                             Command="{Binding ExerciseOverviewViewCommand}"/>
+            </StackPanel>
+
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10" 
+                            Content="{Binding CurrentView}"/>
+        </Grid>
+    </Border>
+
 </Window>
+
