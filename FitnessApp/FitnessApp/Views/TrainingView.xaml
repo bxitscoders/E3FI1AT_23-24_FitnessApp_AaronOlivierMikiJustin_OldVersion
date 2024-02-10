@@ -9,7 +9,19 @@
              Background="#1b1b1b">
     <Grid>
         <TextBlock Text="Training" 
-                   Foreground="White"/>
+                   Foreground="White"
+                   FontSize="14"/>
+        <ListBox ItemsSource="{Binding DataList}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Id}" />
+                        <TextBlock Text="{Binding Name}" />
+                        
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
     </Grid>
 </UserControl>
 
