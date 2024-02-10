@@ -17,7 +17,7 @@
     </Window.DataContext>
 
 
-    <Border CornerRadius = "30" Background="#272537">
+    <Border CornerRadius = "20" Background="#272537">
         <Grid x:Name="LayoutRoot" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -38,6 +38,29 @@
                        FontSize="24" 
                        FontWeight="Bold">
             </TextBlock>
+            <Button Grid.Row ="0"
+                    Grid.Column="1"
+                    Content="X"
+                    Click="CloseButton_Click"
+                    Margin="0"
+                    HorizontalAlignment="Right" VerticalAlignment="Top"
+                    Width="50" 
+                    Height="30">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="red"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="0,20,0,0">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"
+                                  TextElement.Foreground="white"
+                                  TextElement.FontSize="18"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
 
             <StackPanel Grid.Column="0" Grid.Row="1">
                 <RadioButton Content="Start Training"
@@ -45,19 +68,19 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}" 
-                             Command="{Binding TrainingViewCommand}" />
+                             Command="{Binding TrainingViewCommand}" Checked="RadioButton_Checked" />
                 <RadioButton Content="Progress"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding ProgressViewCommand}" />
+                             Command="{Binding ProgressViewCommand}" Checked="RadioButton_Checked_1" />
                 <RadioButton Content="Exercise Overview"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}" 
-                             Command="{Binding ExerciseOverviewViewCommand}"/>
+                             Command="{Binding ExerciseOverviewViewCommand}" Checked="RadioButton_Checked_2"/>
             </StackPanel>
 
             <ContentControl Grid.Row="1"

@@ -24,5 +24,10 @@ namespace FitnessApp.Views
         {
             InitializeComponent();
         }
+
+        private void StartTrainingButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
