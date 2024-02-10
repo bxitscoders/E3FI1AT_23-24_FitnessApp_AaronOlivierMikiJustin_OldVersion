@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olivi\\Source\\Repos\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\Model.csproj": {}
+    "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olivi\\Source\\Repos\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\Model.csproj": {
+    "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olivi\\Source\\Repos\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\olivi\\Source\\Repos\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\olivi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olivi\\Source\\Repos\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\obj\\",
+        "projectPath": "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\addec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\olivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "P:\\addec\\AppData\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +39,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

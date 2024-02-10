@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Model
-build_property.ProjectDir = C:\Users\olivi\source\repos\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\Model\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\Model\

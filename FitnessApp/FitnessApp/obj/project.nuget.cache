@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sWmw5hX6FQDU1xyfWlmIbcIz2vRRatJVSdCI66aY7FT5Vw9dXHQ6ZhSdZz2lU8kAR9KhEmk4aJpYF8ngJR4cBQ==",
+  "dgSpecHash": "dM6lTdGLSzHUR/8LXJuW9WzOhwAWyQegN+jfOJb4FRtwHsPw97KFejsKbW+E7wEj5F+uoaNGmD/mR7UzRODOhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\olivi\\Source\\Repos\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\addec\\OneDrive\\Dokumente\\Aaron\\Ausbildung\\its-stuttgart\\2023-2024\\SAE\\FitnessApp\\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\\FitnessApp\\FitnessApp\\FitnessApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\addec\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\addec\\.nuget\\packages\\npgsql\\7.0.0\\npgsql.7.0.0.nupkg.sha512",
+    "C:\\Users\\addec\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\addec\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\addec\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

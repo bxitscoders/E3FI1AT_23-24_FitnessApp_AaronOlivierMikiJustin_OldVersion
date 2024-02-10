@@ -53,3 +53,14 @@ C:\Users\olivi\Source\Repos\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\Fitn
 C:\Users\olivi\Source\Repos\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\FitnessApp.genruntimeconfig.cache
 C:\Users\olivi\Source\Repos\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\ref\FitnessApp.dll
 C:\Users\olivi\Source\Repos\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\App.baml
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Theme\MenuButtonTheme.baml
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Views\ExerciseOverviewView.g.cs
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Views\ProgressView.g.cs
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Views\StartTrainingView.g.cs
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Views\TrainingView.g.cs
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\App.baml
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Views\ExerciseOverviewView.baml
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Views\ProgressView.baml
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Views\StartTrainingView.baml
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\Views\TrainingView.baml
