@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "FitnessApp/1.0.0": {
         "dependencies": {
+          "Model": "1.0.0",
           "Npgsql": "7.0.0"
         },
         "runtime": {
@@ -46,6 +47,14 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
+        }
+      },
+      "Model/1.0.0": {
+        "dependencies": {
+          "Npgsql": "7.0.0"
+        },
+        "runtime": {
+          "Model.dll": {}
         }
       }
     }
@@ -90,6 +99,11 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

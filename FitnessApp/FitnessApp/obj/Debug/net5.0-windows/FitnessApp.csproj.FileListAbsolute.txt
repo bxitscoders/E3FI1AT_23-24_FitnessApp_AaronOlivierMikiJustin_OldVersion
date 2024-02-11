@@ -68,3 +68,9 @@ C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\F
 C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\bin\Debug\net5.0-windows\Npgsql.dll
 C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\obj\Debug\net5.0-windows\FitnessApp.csproj.CopyComplete
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\bin\Debug\net5.0-windows\Model.deps.json
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\bin\Debug\net5.0-windows\Model.runtimeconfig.json
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\bin\Debug\net5.0-windows\Model.runtimeconfig.dev.json
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\bin\Debug\net5.0-windows\Model.exe
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\bin\Debug\net5.0-windows\Model.dll
+C:\Users\addec\OneDrive\Dokumente\Aaron\Ausbildung\its-stuttgart\2023-2024\SAE\FitnessApp\E3FI1AT_23-24_FitnessApp_AaronOlivierMikiJustin\FitnessApp\FitnessApp\bin\Debug\net5.0-windows\Model.pdb

@@ -4,7 +4,11 @@ namespace Model.Database
 {
     public class DatabaseService
     {
-        private readonly string _connectionString;
+        public string _connectionString;
+
+        public DatabaseService()
+        {
+        }
 
         public DatabaseService(string connectionString)
         {

@@ -1,5 +1,5 @@
 using FitnessApp.Core;
-
+using Model.Database;
 
 namespace FitnessApp.ViewModels
 {
@@ -35,8 +35,9 @@ namespace FitnessApp.ViewModels
         // MainViewModel-constructor
         public MainViewModel()
         {
+            LoadExercises loadExercises = new LoadExercises();
             StartTrainingVM = new StartTrainingViewModel();
-            TrainingVM = new TrainingViewModel();
+            TrainingVM = new TrainingViewModel(loadExercises);
             ProgressVM = new ProgressViewModel();
             ExerciseOverviewVM = new ExerciseOverviewViewModel();
 

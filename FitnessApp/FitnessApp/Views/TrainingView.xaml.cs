@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FitnessApp.ViewModels;
+using Model.Database;
 
 namespace FitnessApp.Views
 {
@@ -23,6 +25,8 @@ namespace FitnessApp.Views
         public TrainingView()
         {
             InitializeComponent();
+            LoadExercises loadExercises = new LoadExercises();
+            DataContext = new TrainingViewModel(loadExercises);
         }
     }
 }

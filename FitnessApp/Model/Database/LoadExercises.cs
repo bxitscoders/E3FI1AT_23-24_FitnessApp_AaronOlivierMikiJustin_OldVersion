@@ -5,12 +5,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Model.Database
 {
     public class LoadExercises
     {
-        private readonly DatabaseService _databaseService;
+        public DatabaseService _databaseService;
+
+        public LoadExercises()
+        {
+        }
 
         public LoadExercises(DatabaseService databaseService)
         {
@@ -22,7 +27,8 @@ namespace Model.Database
             List<Uebungen> uebungenList = new List<Uebungen>();
             try
             {
-                using (NpgsqlConnection connection = new NpgsqlConnection(_databaseService.BuildConnectionString()))
+                string connectionString = _databaseService.BuildConnectionString();
+                using (NpgsqlConnection connection = new NpgsqlConnection(connectionString))
                 {
                     await connection.OpenAsync();
                     string sql = "SELECT u.uebung_id, u.uebungname, m.muskel_id, m.muskel_name " +
@@ -66,8 +72,7 @@ namespace Model.Database
             }
             catch (Exception ex)
             {
-                // Hier können Sie die Fehlerbehandlung einfügen, z.B. Protokollierung oder Benachrichtigung
-                Console.WriteLine("Fehler beim Laden der Übungen: " + ex.Message);
+                MessageBox.Show($"Fehler beim Laden der Daten: {ex.Message}");
             }
             return uebungenList;
         }
